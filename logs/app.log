@@ -1,0 +1,17 @@
+2026-10-03 22:16:33 | GET /estudiantes/ | 200 | Tiempo: 0.012s | Operación exitosa
+2026-10-03 22:16:33 | GET /estudiantes/999999 | 200 | Tiempo: 0.002s | Operación exitosa
+2026-10-03 22:16:34 | POST /estudiantes/ | 422 | Error | Datos inválidos: [{'type': 'int_parsing', 'loc': ('body', 'semestre'), 'msg': 'Input should be a valid integer, unable to parse string as an integer', 'input': 'no-es-un-número'}]
+2026-10-03 22:16:34 | POST /estudiantes/ | 422 | Tiempo: 0.009s | Error
+2026-10-03 22:16:35 | POST /estudiantes/ | 200 | Tiempo: 0.553s | Operación exitosa
+2026-10-03 22:16:42 | POST /estudiantes/ | 500 | Error | Error de base de datos: database is locked
+2026-10-03 22:16:42 | POST /estudiantes/ | 500 | Tiempo: 7.389s | Error
+2026-10-03 22:17:46 | POST /estudiantes/ | 200 | Tiempo: 0.690s | Operación exitosa
+2026-10-03 22:17:47 | POST /estudiantes/ | 422 | Error | Datos inválidos: [{'type': 'int_parsing', 'loc': ('body', 'semestre'), 'msg': 'Input should be a valid integer, unable to parse string as an integer', 'input': 'no-es-un-número'}]
+2026-10-03 22:17:47 | POST /estudiantes/ | 422 | Tiempo: 0.002s | Error
+2026-10-03 22:17:47 | POST /estudiantes/ | 422 | Error | Datos inválidos: [{'type': 'missing', 'loc': ('body', 'promedio'), 'msg': 'Field required', 'input': {'nombre': 'Sin Promedio', 'programa': 'Ingeniería de Sistemas', 'semestre': 2}}]
+2026-10-03 22:17:47 | POST /estudiantes/ | 422 | Tiempo: 0.002s | Error
+2026-10-03 22:17:48 | POST /estudiantes/ | 200 | Tiempo: 0.533s | Operación exitosa
+2026-10-03 22:17:48 | GET /estudiantes/1 | 200 | Tiempo: 0.003s | Operación exitosa
+2026-10-03 22:17:48 | GET /estudiantes/999999 | 200 | Tiempo: 0.002s | Operación exitosa
+2026-10-03 22:17:56 | POST /estudiantes/ | 500 | Error | Error de base de datos: database is locked
+2026-10-03 22:17:56 | POST /estudiantes/ | 500 | Tiempo: 7.379s | Error
